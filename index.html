@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate your age</title>
+</head>
+<body>
+    <header>
+        <h1>Добро Пожаловать, мне друзья</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="areaOne">
+                <p>Birtdate:
+                    <input type="number" name="txtano" id="year">
+                </p>
+
+                <p>Gender:
+                    <input type="radio" name="radiusgender" id="masc" checked>
+                    <label for="masc">Masculine</label>
+
+                    <input type="radio" name="radiusgender" id="fem">
+                    <label for="fem">Female</label>
+                </p>
+                <p>
+                    <input type="button" class="btn" id="verify" value="Calculate">
+                </p>
+            </div>
+
+            <div class="result">
+                Fill the field to see the result
+                <img src="img/xapana.jpg" id="img">
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
